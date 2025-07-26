@@ -1,0 +1,143 @@
+/* fonts  */
+
+.merriweather-normal {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shard style  */
+
+* {
+
+    /* box-sizing: border-box; */
+
+}
+
+
+/* Hero Section - "Happy New Year Party Celebration" */
+
+.hero {
+
+    /* background-image: url(../accets/images/Banner\ Image.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: center; */
+
+    background-image: linear-gradient(180deg, rgba(7, 2, 17, 0.9), rgba(7, 2, 17, 0)), url(../accets/images/Banner\ Image.png);
+    max-width: 1000px;
+    margin: 50px auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 80px 150px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(196, 197, 195, 0.2);
+
+}
+
+.hero .container {
+
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.subtitle {
+
+    color: rgb(255, 255, 255);
+    font-family: merriweather-normal;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.title {
+
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+/* Discount Section – "65% OFF" */
+
+.discount {
+
+    text-align: center;
+    background-color: #fff;
+    padding: 60px 20px;
+
+
+}
+
+.discount h1 {
+
+    font-size: 60px;
+    font-weight: 700;
+    font-family: merriweather-normal;
+    color: rgb(255, 0, 0);
+}
+
+.discount p {
+
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+}
+
+.discount h2 {
+
+    font-size: 36px;
+    margin-top: 10px;
+    color: black;
+}
+
+/* Banner Image – "Happy New Year" Image Section */
+.banner-image img {
+
+    width: 500px;
+    height: auto;
+
+
+
+}
+
+div.banner-image {
+
+    text-align: center;
+}
+
+/* <!-- Midnight Party Banner Section --> */
+
+.midnight-party {
+
+    background-image: url(../accets/images/Vectorrr.png);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+}
+
+.midnight-party .content {
+
+    max-width: 50%;
+}
+
+.midnight-party .image img {
+  max-width: 400px;
+}
+
