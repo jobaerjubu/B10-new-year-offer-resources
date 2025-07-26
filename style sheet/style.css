@@ -115,16 +115,22 @@
 
 }
 
-div.banner-image {
 
-    text-align: center;
-}
 
 /* <!-- Midnight Party Banner Section --> */
 
 .midnight-party {
 
-    background-image: url(../accets/images/Vectorrr.png);
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../accets/images/Vectorrr.png);
+    max-width: 1000px;
+    margin: 50px auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 80px 150px;
+    text-align: start;
+
+
     color: #fff;
     display: flex;
     align-items: center;
@@ -132,12 +138,224 @@ div.banner-image {
     padding: 60px 40px;
 }
 
-.midnight-party .content {
+.midnight-party h1 {
 
-    max-width: 50%;
+    font-family: Merriweather-normal;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+
+
+
 }
 
-.midnight-party .image img {
-  max-width: 400px;
+
+
+.midnight-party p {
+
+    color: rgba(255, 255, 255, 0.8);
+    font-family: merriweather-normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+
 }
+
+.midnight-party button {
+
+    position: absolute;
+    width: 103px;
+    height: 24px;
+
+}
+
+
+
+/* Event Details Section – Time & Location */
+
+.event-info {
+
+
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(161, 33, 33, 0.1), rgba(255, 0, 0, 0) 100%);
+
+}
+
+
+.event-info p span {
+
+    font-weight: 900;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+.event-info button {
+
+
+    width: 167px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    color: white;
+
+
+}
+
+/* Coming Soon Section – New Year 2024 */
+
+.coming-soon {
+
+    max-width: 1000px;
+    margin: 50px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+}
+
+
+.text-1 p span {
+
+    color: rgb(255, 0, 0);
+    font-family: merriweather-normal;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text-1 h1 {
+
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 28px;
+    font-weight: 900;
+
+}
+
+
+.text-1 p {
+
+
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+}
+
+.text-1 {
+
+    padding: -40px;
+}
+
+
+
+.text-2 {
+
+    padding: 70px;
+}
+
+.text-2 h1 {
+
+    color: rgb(255, 0, 0);
+    font-family: merriweather-normal;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.text-2 p {
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    color: rgba(7, 2, 17, 0.6);
+}
+
+
+
+/* Holiday Sale Section – 50% OFF */
+
+
+.holiday-sale {
+
+    max-width: 1000px;
+    margin: 50px auto;
+
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.holiday-sale h3 {
+
+    font-family: Merriweather-normal;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+
+
+}
+
+.holiday-sale h1 {
+
+    font-family: Merriweather-normal;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 91px;
+    letter-spacing: 0%;
+    margin-top: -25px;
+
+
+}
+
+.holiday-sale h1 span {
+    color: rgb(255, 0, 0);
+}
+
+.holiday-sale p {
+
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin-top: -40px;
+
+}
+
+
+
+/* Holiday Image  */
+
+.holiday {
+
+    max-width: 1000px;
+    margin: 60px auto;
+
+
+}
+
+.upper-image {
+
+    display: flex;
+    
+}
+
 
